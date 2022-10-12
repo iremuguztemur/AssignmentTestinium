@@ -1,6 +1,6 @@
-package ProjectDocuments.methods;
+package ProjectDocuments.Base;
 
-import ProjectDocuments.driver.Driver;
+import ProjectDocuments.Driver.Driver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
@@ -10,12 +10,12 @@ import org.openqa.selenium.support.ui.FluentWait;
 
 import java.time.Duration;
 
-public class Methods {
-    private static final Logger logger = LogManager.getLogger(Methods.class);
+public class Base {
+    private static final Logger logger = LogManager.getLogger(Base.class);
     WebDriver driver;
     FluentWait<WebDriver> fluentWait;
     JavascriptExecutor jsDriver;
-    public Methods() {
+    public Base() {
 
         this.driver = Driver.driver;
         jsDriver = (JavascriptExecutor) driver;

@@ -1,9 +1,9 @@
-package ProjectDocuments.test;
+package ProjectDocuments.NetworkTest;
 
-import ProjectDocuments.driver.Driver;
-import ProjectDocuments.pages.LoginPage;
-import ProjectDocuments.pages.MainPage;
-import ProjectDocuments.pages.ProductPage;
+import ProjectDocuments.Driver.Driver;
+import ProjectDocuments.Pages.LoginPage;
+import ProjectDocuments.Pages.MainPage;
+import ProjectDocuments.Pages.ProductPage;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;

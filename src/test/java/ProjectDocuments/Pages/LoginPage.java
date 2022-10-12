@@ -1,10 +1,9 @@
-package ProjectDocuments.pages;
+package ProjectDocuments.Pages;
 
-import ProjectDocuments.driver.Driver;
-import ProjectDocuments.methods.Methods;
+import ProjectDocuments.Driver.Driver;
+import ProjectDocuments.Base.Base;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import java.io.*;
 import java.util.Scanner;
 
-public class LoginPage extends Methods {
+public class LoginPage extends Base {
     private static final Logger logger = LogManager.getLogger(Driver.class);
     public LoginPage(WebDriver driver) {
     }

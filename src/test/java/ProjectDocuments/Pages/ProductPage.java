@@ -1,7 +1,7 @@
-package ProjectDocuments.pages;
+package ProjectDocuments.Pages;
 
-import ProjectDocuments.driver.Driver;
-import ProjectDocuments.methods.Methods;
+import ProjectDocuments.Driver.Driver;
+import ProjectDocuments.Base.Base;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class ProductPage extends Methods {
+public class ProductPage extends Base {
     private static final Logger logger = LogManager.getLogger(Driver.class);
     public static String productPrice;
     public static String productSize;
